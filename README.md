@@ -16,6 +16,6 @@ I’m Siphesihle Masuku, a results-driven and detail-oriented Business Analytics
 <img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=sihlemsk&icon=8&color=12)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=sihlemsk2&label=Stalkers&color=12&pretty=true)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
