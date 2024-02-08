@@ -1,5 +1,3 @@
-Here is a complete report in GitHub README.md format for the fake job postings detection project:
-
 # Fake Job Postings Detection
 
 ## Overview
