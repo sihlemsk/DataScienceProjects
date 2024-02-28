@@ -68,4 +68,4 @@ Some ways to further improve the model:
 
 ## References
 
-The dataset can be found on [real or fake job postings predictions](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction/download?datasetVersionNumber=1) and python code for this project can be found [HERE](https://github.com/sihlemsk/DataScienceProjects/blob/main/Classifier%20Projects/Job%20Posting%20Prediction%20(Classifier%20Project).ipynb)
+The dataset can be found on [real or fake job postings predictions](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction/download?datasetVersionNumber=1) and python code for this project can be found [HERE](https://github.com/sihlemsk/DataScienceProjects/blob/main/Classifier%20Projects/Job%20Posting%20Prediction%20(Siphesihle%20Masuku).ipynb)
