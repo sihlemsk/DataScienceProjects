@@ -20,6 +20,13 @@ The loan application data is in `loan_data.csv`. It contains the following featu
 - `Property_Area`: Urban/Semi-Urban/Rural
 - `Loan_Status`: Loan approved (Y/N)
 
+## Data Understanding
+
+The dataset contains information on 381 loan applications with the following features:
+
+Categorical: Gender, Married, Dependents, Education, Self-Employed, Property_Area, Loan_Status
+Numerical: ApplicantIncome, CoapplicantIncome, LoanAmount, Loan_Amount_Term, Credit_History
+
 ## Models
 
 The following models are evaluated:
@@ -39,19 +46,20 @@ The modeling pipeline includes:
 
 ## Results
 
-On the test set, Random Forest achieves 82.26% accuracy, outperforming XGBoost at 79.03% accuracy.
+Random Forest had better performance with 82.26% test accuracy compared to 79.03% for XGBoost.
 
-5-fold cross-validation shows Random Forest has 83.34% average accuracy compared to 78.46% for XGBoost.
+5-fold cross validation showed 83.34% average accuracy for Random Forest and 78.46% for XGBoost.
+
+The Random Forest model also had a higher F1 score of 0.8791 vs 0.8506 for XGBoost.
 
 ## Conclusion
+
 In this project, classification models were built to predict loan approval using Random Forest and XGBoost. Random Forest performed better with 82.26% accuracy. The model pipeline provides a good foundation and can be extended by trying different algorithms and tuning hyperparameters. Additional feature engineering may also help improve performance further.
 
 ## Next Steps
 
-- Try different classification algorithms
-- Tune model hyperparameters 
-- Engineer new features
-- Reduce overfitting through regularization
+- Try different classification algorithms for higher accuracy (whilst avoiding overfitting)
+- Tune model hyperparameters
 
 ## References
 
