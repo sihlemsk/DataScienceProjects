@@ -51,20 +51,28 @@ The following machine learning models were evaluated:
 XGBoost Classifier gave the best results with **98.5%** accuracy and **0.79** F1 score on the test set after hyperparameter tuning.
 
 ## Model Evaluation
-The XGBoost model was analyzed further by plotting the confusion matrix and classification report. It had high precision for both classes with a minor dip in recall for the minority fraudulent class. 
-
-Varying the classification threshold improved the recall for the fraudulent class at the expense of more false positives.
-
-Overall, the model is able to effectively identify fake job postings while maintaining high accuracy.
+### In-depth Analysis of XGBoost Model: 
+To gain a deeper understanding of the XGBoost model's performance, a comprehensive evaluation was conducted. The analysis revealed:
+#### High Precision: 
+The model exhibited a commendable ability to minimize false positives, ensuring a low rate of legitimate job postings being misclassified as fraudulent. This is crucial for maintaining trust and preventing unnecessary job seekers from being discouraged.
+#### Balanced Recall: 
+While the model achieved high overall accuracy, it exhibited a slight dip in recall specifically for the minority fraudulent class. This indicates that a small number of genuine job postings might be mistakenly classified as fake.
+#### Balancing Trade-offs: 
+The project acknowledged the inherent trade-off between precision and recall. Adjusting the classification threshold can potentially improve recall for fraud detection, but this comes at the expense of potentially introducing more false positives, misclassifying legitimate postings as fraudulent.
 
 ## Next Steps
 
 Some ways to further improve the model:
 
-- Mitigate class imbalance with techniques like oversampling 
+- Mitigate class imbalance with techniques like oversampling
+- Test the model on new data to examine how well it performs
 - Fine-tune neural network architectures for text classification
 - Incorporate additional features like job poster profiles etc.
 - Deploy the model to a production environment for actual usage
+
+## Conclusion and Future Considerations:
+
+The project successfully demonstrates the efficacy of leveraging machine learning to combat the pervasive issue of fake job postings. The XGBoost model, with its high accuracy and balanced performance, presents a promising solution in the fight against fraudulent recruitment practices. However, it is crucial to acknowledge that the landscape of online scams is constantly evolving, necessitating continuous monitoring and improvement of such models to maintain their effectiveness. Furthermore, exploring alternative imputation techniques and potentially incorporating additional features, such as website analysis or user reviews, could further enhance the model's ability to identify and eliminate fraudulent job postings, ultimately fostering a safer and more reliable job search experience for all.
 
 ## References
 
