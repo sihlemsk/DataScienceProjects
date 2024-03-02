@@ -70,6 +70,28 @@ Some ways to further improve the model:
 - Incorporate additional features like job poster profiles etc.
 - Deploy the model to a production environment for actual usage
 
+## Model Deployment
+
+Once the model development and evaluation stages are complete, the next step is to deploy the model for practical use. Deployment involves making the trained model available for real-time predictions. Common deployment options include:
+
+### API Integration: 
+Develop an API to expose the model's functionality, allowing other applications or systems to send input data and receive predictions.
+
+### Cloud Deployment: 
+Host the model on a cloud platform (AWS) for scalability and accessibility.
+
+## Model Usage
+Once deployed, the model can be utilized for various applications, including:
+
+### Fraud Detection System: 
+Integrate the model into a fraud detection system that automatically screens job postings in real-time, flagging potentially fraudulent ones for further investigation.
+
+### User Interface: 
+Develop a user interface that allows users to input job details, and the model provides instant feedback on the likelihood of the job posting being fraudulent.
+
+### Batch Processing: 
+Implement batch processing for large datasets, enabling the model to analyze and classify multiple job postings simultaneously.
+
 ## Conclusion and Future Considerations:
 
 The project successfully demonstrates the efficacy of leveraging machine learning to combat the pervasive issue of fake job postings. The XGBoost model, with its high accuracy and balanced performance, presents a promising solution in the fight against fraudulent recruitment practices. However, it is crucial to acknowledge that the landscape of online scams is constantly evolving, necessitating continuous monitoring and improvement of such models to maintain their effectiveness. Furthermore, exploring alternative imputation techniques and potentially incorporating additional features, such as website analysis or user reviews, could further enhance the model's ability to identify and eliminate fraudulent job postings, ultimately fostering a safer and more reliable job search experience for all.
