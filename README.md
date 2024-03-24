@@ -1,7 +1,7 @@
 # 💫 About Me:
 I’m Siphesihle Masuku, a results-driven and detail-oriented Business Analytics student pursuing my Bachelor of Science degree at North-West University. I'm currently working on building my data analytics skills and experience through self-paced online courses and hands-on projects.<br><br>I'm looking to collaborate on data-driven projects that solve real-world problems using predictive modeling, data visualization, and other analytics techniques. As a lifelong learner, I'm eager to work with others to enhance my abilities.<br><br>I'm looking for help with connecting with professionals in the field to gain insights on transitioning from academics to a career in business analytics. Mentorship opportunities focused on leveling up technical abilities and soft skills would be invaluable.<br><br>Fun fact: I enjoy videogames and strategy games like chess and continuously challenge myself to improve. I find the critical thinking and pattern recognition required helps strengthen my analytics capabilities.
 
-##AMOR FATI!
+## AMOR FATI!
 
 
 ## 🌐 Socials:
